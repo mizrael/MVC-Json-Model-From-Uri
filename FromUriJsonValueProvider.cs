@@ -1,4 +1,4 @@
-    public class FromUriJsonValueProvider<TModel> : System.Web.Http.ValueProviders.IValueProvider where TModel : class
+public class FromUriJsonValueProvider<TModel> : System.Web.Http.ValueProviders.IValueProvider where TModel : class
 {
     private System.Web.Http.Controllers.HttpActionContext _actionContext;
 
